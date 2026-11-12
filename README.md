@@ -27,4 +27,4 @@ A gestão de informação académica exige organização e controlo dos dados. E
 - Linguagem de programação: pyhthon
 
 ## Estado do projeto
-Sprint 1 – Análise e Planeamento.
+ Análise e Planeamento.
