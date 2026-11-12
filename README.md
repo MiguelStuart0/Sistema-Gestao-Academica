@@ -24,7 +24,7 @@ A gestão de informação académica exige organização e controlo dos dados. E
 - GitHub
 - GitHub Projects
 - Visual Studio Code
-- Linguagem de programação: por definir.
+- Linguagem de programação: pyhthon
 
 ## Estado do projeto
 Sprint 1 – Análise e Planeamento.
