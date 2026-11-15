@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Académica</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f6f9;
+        }
+
+        header {
+            background: #183153;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #24466f;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 22px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #183153;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .aviso {
+            background: #eef3f8;
+            padding: 15px;
+            border-left: 4px solid #24466f;
+            margin-top: 15px;
+        }
+
+        .botao {
+            display: inline-block;
+            background: #183153;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 12px;
+        }
+
+        footer {
+            background: #183153;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sistema de Gestão Académica Simplificado</h1>
+    <p>Organização e gestão de informação académica</p>
+</header>
+
+<nav>
+    <a href="#problema">Problema</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#funcionalidades">Funcionalidades</a>
+    <a href="#tecnologias">Tecnologias</a>
+    <a href="#manual">Manual</a>
+</nav>
+
+<main>
+
+    <section id="problema">
+        <h2>Descrição do Problema</h2>
+        <p>
+            A gestão de informação académica envolve vários dados,
+            como estudantes, unidades curriculares, avaliações
+            e classificações. Quando estes dados não estão
+            devidamente organizados, a sua consulta e gestão
+            podem tornar-se difíceis.
+        </p>
+        <p>
+            Este projeto pretende desenvolver uma aplicação
+            que facilite a organização e a gestão dessas
+            informações num único sistema.
+        </p>
+    </section>
+
+    <section id="objetivos">
+        <h2>Objetivos do Projeto</h2>
+        <ul>
+            <li>Facilitar a gestão de estudantes.</li>
+            <li>Organizar as unidades curriculares.</li>
+            <li>Registar avaliações e classificações.</li>
+            <li>Permitir o cálculo de médias.</li>
+            <li>Disponibilizar estatísticas académicas.</li>
+            <li>Desenvolver uma interface simples e intuitiva.</li>
+        </ul>
+    </section>
+
+    <section id="funcionalidades">
+        <h2>Funcionalidades Planeadas</h2>
+        <ul>
+            <li>Adicionar, consultar, editar e remover estudantes.</li>
+            <li>Gerir unidades curriculares.</li>
+            <li>Registar avaliações e classificações.</li>
+            <li>Calcular médias dos estudantes.</li>
+            <li>Consultar estatísticas académicas.</li>
+            <li>Utilizar uma interface gráfica para gerir os dados.</li>
+        </ul>
+
+        <div class="aviso">
+            <strong>Estado do projeto:</strong>
+            Em desenvolvimento. As funcionalidades serão
+            disponibilizadas progressivamente.
+        </div>
+    </section>
+
+    <section id="tecnologias">
+        <h2>Tecnologias Utilizadas</h2>
+        <ul>
+            <li><strong>Python:</strong> linguagem de programação.</li>
+            <li><strong>SQLite:</strong> gestão da base de dados.</li>
+            <li><strong>Tkinter:</strong> desenvolvimento da interface gráfica.</li>
+            <li><strong>GitHub:</strong> organização e controlo do projeto.</li>
+        </ul>
+    </section>
+
+    <section id="capturas">
+        <h2>Capturas de Ecrã</h2>
+        <p>
+            Nesta secção serão apresentadas imagens da aplicação,
+            da interface gráfica e das principais funcionalidades
+            após a sua implementação.
+        </p>
+        <div class="aviso">
+            Capturas de ecrã a adicionar.
+        </div>
+    </section>
+
+    <section id="manual">
+        <h2>Manual de Utilização</h2>
+        <p>
+            O manual de utilização será atualizado à medida
+            que a aplicação for desenvolvida.
+        </p>
+        <ol>
+            <li>Iniciar a aplicação no ambiente Python.</li>
+            <li>Aceder às opções disponíveis na interface gráfica.</li>
+            <li>Selecionar a funcionalidade pretendida.</li>
+            <li>Introduzir ou consultar os dados académicos.</li>
+        </ol>
+        <div class="aviso">
+            Estes passos são indicativos. O manual definitivo
+            será concluído após a implementação da aplicação.
+        </div>
+    </section>
+
+    <section id="repositorio">
+        <h2>Repositório do Projeto</h2>
+        <p>
+            Consulte o repositório GitHub para acompanhar
+            o desenvolvimento e a documentação do projeto.
+        </p>
+
+        <a class="botao"
+           href="https://github.com/TEU-UTILIZADOR/TEU-REPOSITORIO">
+            Aceder ao GitHub
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>Sistema de Gestão Académica Simplificado</p>
+    <p>Projeto académico — Gestão de Projetos e Software</p>
+</footer>
+
+</body>
+</html>
