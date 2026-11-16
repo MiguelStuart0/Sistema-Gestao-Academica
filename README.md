@@ -40,9 +40,9 @@ O projeto será organizado em diferentes módulos, de forma a separar a interfac
 
 ## 7. Equipa
 
-- Estudante 1: [Miguel Stuart]
-- Estudante 2: [Daniel Trindade]
-- Estudante 3: [Andre Filipe]
+- Miguel Stuart
+- Daniel Trindade
+- Andre Filipe
 
 ## 8. Estado do Projeto
 
