@@ -43,6 +43,7 @@ O projeto será organizado em diferentes módulos, de forma a separar a interfac
 - Miguel Stuart
 - Daniel Trindade
 - Andre Filipe
+- Lucas
 
 ## 8. Estado do Projeto
 
